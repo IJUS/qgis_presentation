@@ -2,11 +2,12 @@ import processing
 
 # Create the arguments needed for the buffer. At minimum, INPUT and OUTPUT are required.
 args = {'INPUT': QgsProject.instance().mapLayersByName('locations shp')[0],
-        'DISTANCE': 0.0005,
+        'DISTANCE': 0.001,
         'OUTPUT': 'TEMPORARY_OUTPUT'}
 
 # Create the buffer using the processing API and get its output from the returned dictionary.
-output = processing.run('native:buffer', args)['OUTPUT']
+output_layer = processing.run('native:buffer', args)['OUTPUT']
 
-# Add the new buffer layer to the project.
-QgsProject.instance().addMapLayer(output)
+QgsProject.instance().addMapLayer(output_layer)
+output_layer.setOpacity(0.5)
+iface.mapCanvas().refresh()
