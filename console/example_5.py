@@ -1,7 +1,7 @@
 import processing
 
 # Create the arguments needed for the buffer. At minimum, INPUT and OUTPUT are required.
-args = {'INPUT': QgsProject.instance().mapLayersByName('locations shp'),
+args = {'INPUT': QgsProject.instance().mapLayersByName('locations shp')[0],
         'DISTANCE': 0.0005,
         'OUTPUT': 'TEMPORARY_OUTPUT'}
 
