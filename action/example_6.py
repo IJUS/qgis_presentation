@@ -1,9 +1,11 @@
 from qgis.utils import iface
 import processing
+lat = [% lat %]
+lng = [% lng %]
 
 # Create the parameters for the for the extraction process to get only the selected layer.
 extraction_args = {'INPUT': iface.activeLayer(),
-                   'EXPRESSION': "lat = [% 'lat' %] AND lng = [% 'lng' %]",
+                   'EXPRESSION': f"lat = {lat} AND lng = {lng}",
                    'OUTPUT': 'TEMPORARY_OUTPUT'}
 
 temporary_layer = processing.run('qgis:extractbyexpression', extraction_args)['OUTPUT']
