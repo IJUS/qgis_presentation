@@ -1,7 +1,7 @@
 import processing
 
 # Create the parameters for the for the extraction process to get only the selected layer.
-extraction_args = {'INPUT': QgsProject.instance().mapLayersByName('locations shp')[0],
+extraction_args = {'INPUT': iface.activeLayer(),
                    'EXPRESSION': "lat = [% 'lat' %] AND lng = [% 'lng' %]",
                    'OUTPUT': 'TEMPORARY_OUTPUT'}
 
