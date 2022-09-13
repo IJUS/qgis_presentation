@@ -1,3 +1,4 @@
+from qgis.utils import iface
 import processing
 
 # Create the parameters for the for the extraction process to get only the selected layer.
