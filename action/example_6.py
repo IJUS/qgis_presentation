@@ -6,11 +6,11 @@ lat = [% lat %]
 lng = [% lng %]
 
 # Find the existing Buffered layer.
-removable_layer = QgsProject.instance().mapLayersByName('Buffered')[0]
+removable_layer = QgsProject.instance().mapLayersByName('Buffered')
 
 if removable_layer:
     # Remove the existing Buffered layer if it exists.
-    QgsProject.instance().removeMapLayer(removable_layer)
+    QgsProject.instance().removeMapLayer(removable_layer[0])
 
 # Create the parameters for the for the extraction process to get only the selected layer.
 extraction_args = {'INPUT': iface.activeLayer(),
