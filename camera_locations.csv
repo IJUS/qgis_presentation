@@ -1,0 +1,13 @@
+id,name,maint,importance,url,lat,lng
+1,I-90 at SR-2 / Lakefront Airport,No,Low,"https://ohgo.com/cleveland?lt=41.51872407162248&ln=-81.66114379291166&z=15&ls=incident,incident-waze,construction,camera&id=camera-00000000000324",41.5219944,-81.6687359
+2,I-90 at E 55th St,No,Low,"https://ohgo.com/cleveland?lt=41.52949918808081&ln=-81.65005359143508&z=17&ls=incident,incident-waze,construction,camera&id=camera-00000000000672",41.5295423,-81.6524954
+3,I-90 at US-322 / Chester Ave,Yes,High,"https://ohgo.com/cleveland?lt=41.504489499057605&ln=-81.66694088339491&z=16&ls=incident,incident-waze,construction,camera&id=camera-00000000000398",41.5034943,-81.6694632
+4,I-90 at E 22nd St,Yes,Medium,"https://ohgo.com/cleveland?lt=41.49574592855378&ln=-81.67095337094673&z=16&ls=incident,incident-waze,construction,camera&id=camera-00000000000057",41.4975383,-81.6740778
+5,I-77 at S of I-90,No,Loww,"https://ohgo.com/cleveland?lt=41.490523017137185&ln=-81.6726537354871&z=16&ls=incident,incident-waze,construction,camera&id=camera-00000000000485",41.4925064,-81.6750436
+6,I-90 at I-77,No,Loww,"https://ohgo.com/cleveland?lt=41.493610501920244&ln=-81.67643480289418&z=16&ls=incident,incident-waze,construction,camera&id=camera-00000000000720",41.4948554,-81.6822696
+7,I-77 at S of E 30th St,Yes,High,"https://ohgo.com/cleveland?lt=41.48738390609902&ln=-81.6638534018586&z=16&ls=incident,incident-waze,construction,camera&id=camera-00000000000333",41.4904078,-81.6665299
+8,I-71 at I-90 / I-490,No,Low,"https://ohgo.com/cleveland?lt=41.4715793480503&ln=-81.68799883030798&z=16&ls=incident,incident-waze,construction,camera&id=camera-00000000000074",41.4737261,-81.6932039
+9,I-490 E of I-71 / I-90,No,Low,"https://ohgo.com/cleveland?lt=41.47177012044159&ln=-81.68617300390265&z=16&ls=incident,incident-waze,construction,camera&id=camera-00000000000538",41.4742985,-81.6903063
+1,I-90 at Kenilworth Ave,Yes,High,"https://ohgo.com/cleveland?lt=41.47810757142608&ln=-81.6918820563182&z=16&ls=incident,incident-waze,construction,camera&id=camera-00000000000517",41.4791714,-81.693343
+12,I-90 at Fulton Rd,No,Low,"https://ohgo.com/cleveland?lt=41.47156355504256&ln=-81.70408184572788&z=16&ls=incident,incident-waze,construction,camera&id=camera-00000000000461",41.4737818,-81.7087488
+13,I-90 at W 44th St,Yes,High,"https://ohgo.com/cleveland?lt=41.47456725862906&ln=-81.71167570880024&z=16&ls=incident,incident-waze,construction,camera&id=camera-00000000000678",41.475006,-81.7167696
